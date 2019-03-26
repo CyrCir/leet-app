@@ -15,7 +15,7 @@ function letsLeet() {
     document.getElementById('lname').innerText = convertLeet(lastName);
     document.getElementById('town').innerText = convertLeet(town);
     document.getElementById('job').innerText = convertLeet(job);
-    document.getElementById('sealOfApproval').innerHTML = '<img height="50" src="https://vignette.wikia.nocookie.net/simpsons/images/2/20/Krusty_Brand_Seal_of_Approval.gif/revision/latest?cb=20100611215304" alt="Approved !" title="Approved !">'
+    document.getElementById('sealOfApproval').innerHTML = '<img src="https://vignette.wikia.nocookie.net/simpsons/images/2/20/Krusty_Brand_Seal_of_Approval.gif/revision/latest?cb=20100611215304" alt="Approved !" title="Approved !">'
 
     console.log("----> Conversion done, you're now a thug big boy.");
 }

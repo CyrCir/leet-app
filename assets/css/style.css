@@ -71,6 +71,7 @@ body {
     justify-content: center;
     font-size: 1.5rem;
     text-align: left;
+    position: relative;
 }
 
 .cardBody .idInfos span {
@@ -81,6 +82,14 @@ body {
 [role="button"] {
     cursor: pointer;
     padding: 0.2rem 1.25rem;
+}
+
+#sealOfApproval img {
+    height: 6em;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(-15deg);
 }
 
 /*
