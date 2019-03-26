@@ -108,6 +108,7 @@ find it @ https://codepen.io/borntofrappe/pen/GeXMgm
     border: 0.4rem solid #000;
     /* position relative for the :before pseudo element */
     position: relative;
+    transition: all 400ms ease-in-out;
 }
 
 /* for the highlight container change the solid backgorund to a yellow-ish hue */
@@ -116,6 +117,7 @@ find it @ https://codepen.io/borntofrappe/pen/GeXMgm
         #ffcd28;
     background-size: 13px, 100%;
     font-weight: 700;
+    
 }
 /* for the highlight container always add an exclamation point */
 .bubble--highlight:after {
@@ -135,4 +137,8 @@ find it @ https://codepen.io/borntofrappe/pen/GeXMgm
     background-size: 12px, 100%;
     border: 0.4rem solid #000;
     z-index: -5;
+}
+
+.bubble--highlight:hover {
+    background-color: #2845ff;
 }
