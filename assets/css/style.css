@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Bangers', cursive;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+30,a80077+78,db36a4+100 */
+    background: #cb60b3; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #cb60b3 0%, #c146a1 30%, #a80077 78%, #db36a4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #cb60b3 0%,#c146a1 30%,#a80077 78%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #cb60b3 0%,#c146a1 30%,#a80077 78%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.cardWrapper {
+    height: 300px;
+    width: 900px;
+
+    background: rgba(0,0,0,0.08);
+
+    -webkit-box-shadow: 5px 5px 35px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 35px -5px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 35px -5px rgba(0,0,0,0.75);
+}
+
+.cardWrapper .cardHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff3224;
+}
+
+.cardBody .idInfos {
+    background-color: black;
+    font-family: 'VT323', monospace;
+    color: #00ff41;
+}
+
+.cardBody .idInfos span {
+    font-family: 'VT323', monospace;
+
+}
