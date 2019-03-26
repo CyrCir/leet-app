@@ -1,6 +1,6 @@
 /* Fonction permettant de transformer
-la string en entrée par son
-équivalent « L33t 5p34k » */
+la string en entrÃ©e par son
+Ã©quivalent Â« L33t 5p34k Â» */
 
 let leetLetters =
 {

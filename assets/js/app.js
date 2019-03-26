@@ -4,7 +4,7 @@ function letsLeet() {
     console.log("----> Let's leet dear...");
 
     // get user infos
-    let firstName = prompt('Veuillez saisir votre prénom');
+    let firstName = prompt('Veuillez saisir votre prÃ©nom');
     let lastName = prompt('Veuillez saisir votre nom');
     let town = prompt('Veuillez saisir votre ville');
     let job = prompt('Veuillez saisir votre job');
