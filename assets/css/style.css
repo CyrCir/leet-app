@@ -18,7 +18,7 @@ body {
 }
 
 .cardWrapper {
-    height: 400px;
+    /* height: 400px; */
     width: 1200px;
 
     background: #c1c1c1;
