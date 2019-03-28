@@ -17,6 +17,17 @@ body {
     background-size: 10px, 100%;
 }
 
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftArrow {
+    transform: rotate(180deg);
+}
+
 .cardWrapper {
     height: 400px;
     width: 1200px;
